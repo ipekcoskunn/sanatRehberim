@@ -1,1 +1,1 @@
-# sanatRehberim
+Sanat Rehberim Uygulaması altında konserlerin, müzelerin, sergilerin listelenip detaylı bilgisine ulaşıldığı, izlenilen tiyatro oyunları hakkında yorumların yapılıp son tarihe göre listelendiği bir mobil uygulama geliştirmeye çalıştım.
