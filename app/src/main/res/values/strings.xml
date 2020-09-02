@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Sanat Rehberim</string>
+    <string name="create_new_account">Yeni Hesap Oluştur</string>
+    <string name="i_have_account">GİRİŞ YAP</string>
+    <string name="giris_yap">Giriş Yap</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

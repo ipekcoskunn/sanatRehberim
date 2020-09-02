@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BEF6F5"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/txtWelcomeAppName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="35dp"
+        android:textColor="@color/cardview_dark_background"
+        android:textStyle="italic|bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"></TextView>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/logo_icon"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/txtWelcomeAppName"
+        android:layout_marginTop="10dp"
+        ></ImageView>
+    <EditText
+        android:id="@+id/emailText"
+        android:layout_width="340dp"
+        android:layout_height="40dp"
+        android:drawableLeft="@drawable/ic_action_user"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="270dp"
+        android:ems="10"
+        android:hint="E-mail adresi"
+        android:inputType="textPersonName" />
+    <EditText
+        android:id="@+id/passwordText"
+        android:layout_width="340dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="320dp"
+        android:drawableLeft="@drawable/ic_action_pass"
+        android:ems="10"
+        android:hint="Parola"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btn_girisyap_giris"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="120dp"
+        android:background="#66BFB1"
+        android:onClick="signInClicked"
+        android:text="@string/i_have_account"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_kayit_giris"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp"
+        android:background="#66BFB1"
+        android:onClick="signUpClicked"
+        android:text="@string/create_new_account"
+        android:textSize="18sp" />
+</RelativeLayout>

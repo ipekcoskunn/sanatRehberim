@@ -1,0 +1,310 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ipekcoskun.sanatrehberim"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml
+10    <!--
+11         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+12         Google Maps Android API v2, but you must specify either coarse or fine
+13         location permissions for the 'MyLocation' functionality.
+14    -->
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:9:5-79
+15-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:9:22-76
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:10:5-80
+16-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:10:22-77
+17
+18    <!-- Include required permissions for Google Maps API to run. -->
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Ipek\.gradle\caches\transforms-2\files-2.1\bdb9154a0c06c0baec168d7adfd1a4f5\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+19-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Ipek\.gradle\caches\transforms-2\files-2.1\bdb9154a0c06c0baec168d7adfd1a4f5\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:22-76
+20    <uses-permission android:name="android.permission.INTERNET" />
+20-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Ipek\.gradle\caches\transforms-2\files-2.1\bdb9154a0c06c0baec168d7adfd1a4f5\jetified-play-services-maps-17.0.0\AndroidManifest.xml:24:5-67
+20-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Ipek\.gradle\caches\transforms-2\files-2.1\bdb9154a0c06c0baec168d7adfd1a4f5\jetified-play-services-maps-17.0.0\AndroidManifest.xml:24:22-64
+21
+22    <uses-feature
+22-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Ipek\.gradle\caches\transforms-2\files-2.1\bdb9154a0c06c0baec168d7adfd1a4f5\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+23        android:glEsVersion="0x00020000"
+23-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Ipek\.gradle\caches\transforms-2\files-2.1\bdb9154a0c06c0baec168d7adfd1a4f5\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+24        android:required="true" />
+24-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Ipek\.gradle\caches\transforms-2\files-2.1\bdb9154a0c06c0baec168d7adfd1a4f5\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+25
+26    <application
+26-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:11:5-108:19
+27        android:allowBackup="true"
+27-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:12:9-35
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.1.0] C:\Users\Ipek\.gradle\caches\transforms-2\files-2.1\64cddd45e89bc3894cf7e46e3178d8e4\core-1.1.0\AndroidManifest.xml:24:18-86
+29        android:debuggable="true"
+30        android:extractNativeLibs="false"
+31        android:icon="@mipmap/ic_launcher"
+31-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:13:9-43
+32        android:label="@string/app_name"
+32-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:14:9-41
+33        android:roundIcon="@mipmap/ic_launcher_round"
+33-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:15:9-54
+34        android:supportsRtl="true"
+34-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:16:9-35
+35        android:testOnly="true"
+36        android:theme="@style/AppTheme" >
+36-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:17:9-40
+37
+38        <!--
+39             The API key for Google Maps-based APIs is defined as a string resource.
+40             (See the file "res/values/google_maps_api.xml").
+41             Note that the API key is linked to the encryption key used to sign the APK.
+42             You need a different API key for each encryption key, including the release key that is used to
+43             sign the APK for publishing.
+44             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+45        -->
+46        <meta-data
+46-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:27:9-29:55
+47            android:name="com.google.android.geo.API_KEY"
+47-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:28:13-58
+48            android:value="@string/google_maps_key" />
+48-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:29:13-52
+49
+50        <activity
+50-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:31:9-33:59
+51            android:name="com.ipekcoskun.sanatrehberim.MapsActivity"
+51-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:32:13-41
+52            android:label="@string/title_activity_maps" />
+52-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:33:13-56
+53        <activity android:name="com.ipekcoskun.sanatrehberim.welcome_ekrani_activity" >
+53-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:34:9-40:20
+53-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:34:19-58
+54            <intent-filter>
+54-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:35:13-39:29
+55                <action android:name="android.intent.action.MAIN" />
+55-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:36:17-69
+55-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:36:25-66
+56
+57                <category android:name="android.intent.category.LAUNCHER" />
+57-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:38:17-77
+57-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:38:27-74
+58            </intent-filter>
+59        </activity>
+60        <activity android:name="com.ipekcoskun.sanatrehberim.GuncelTiyatroActivity" />
+60-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:41:9-58
+60-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:41:19-56
+61        <activity android:name="com.ipekcoskun.sanatrehberim.muzeler_detay" />
+61-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:42:9-51
+61-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:42:19-48
+62        <activity
+62-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:43:9-51:20
+63            android:name="com.ipekcoskun.sanatrehberim.MainActivity"
+63-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:44:13-41
+64            android:label="@string/app_name" >
+64-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:45:13-45
+65            <intent-filter>
+65-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:46:13-50:29
+66                <action android:name="android.intent.action.ANAEKRAN" />
+66-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:47:17-73
+66-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:47:25-70
+67
+68                <category android:name="android.intent.DEFAULT" />
+68-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:49:17-67
+68-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:49:27-64
+69            </intent-filter>
+70        </activity>
+71        <activity
+71-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:52:9-60:20
+72            android:name="com.ipekcoskun.sanatrehberim.tiyatrolar_ekrani_activity"
+72-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:53:13-55
+73            android:label="@string/app_name" >
+73-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:54:13-45
+74            <intent-filter>
+74-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:55:13-59:29
+75                <action android:name="android.intent.action.TİYATROLAREKRAN" />
+75-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:56:17-80
+75-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:56:25-77
+76
+77                <category android:name="android.intent.DEFAULT" />
+77-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:49:17-67
+77-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:49:27-64
+78            </intent-filter>
+79        </activity>
+80        <activity
+80-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:61:9-69:20
+81            android:name="com.ipekcoskun.sanatrehberim.muzeler_ekrani_activity"
+81-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:62:13-52
+82            android:label="@string/app_name" >
+82-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:63:13-45
+83            <intent-filter>
+83-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:64:13-68:29
+84                <action android:name="android.intent.action.MUZELEREKRAN" />
+84-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:65:17-77
+84-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:65:25-74
+85
+86                <category android:name="android.intent.DEFAULT" />
+86-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:49:17-67
+86-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:49:27-64
+87            </intent-filter>
+88        </activity>
+89        <activity
+89-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:70:9-78:20
+90            android:name="com.ipekcoskun.sanatrehberim.sergiler_ekrani_activity"
+90-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:71:13-53
+91            android:label="@string/app_name" >
+91-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:72:13-45
+92            <intent-filter>
+92-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:73:13-77:29
+93                <action android:name="android.intent.action.SERGİLEREKRAN" />
+93-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:74:17-78
+93-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:74:25-75
+94
+95                <category android:name="android.intent.DEFAULT" />
+95-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:49:17-67
+95-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:49:27-64
+96            </intent-filter>
+97        </activity>
+98        <activity android:name="com.ipekcoskun.sanatrehberim.sergi_icerik_activity" />
+98-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:79:9-59
+98-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:79:19-56
+99        <activity
+99-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:80:9-88:20
+100            android:name="com.ipekcoskun.sanatrehberim.kitaplar_ekrani_activity"
+100-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:81:13-53
+101            android:label="@string/app_name" >
+101-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:82:13-45
+102            <intent-filter>
+102-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:83:13-87:29
+103                <action android:name="android.intent.action.KİTAPLAREKRAN" />
+103-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:84:17-78
+103-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:84:25-75
+104
+105                <category android:name="android.intent.DEFAULT" />
+105-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:49:17-67
+105-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:49:27-64
+106            </intent-filter>
+107        </activity>
+108        <activity
+108-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:89:9-97:20
+109            android:name="com.ipekcoskun.sanatrehberim.yerler_activity"
+109-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:90:13-44
+110            android:label="@string/app_name" >
+110-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:91:13-45
+111            <intent-filter>
+111-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:92:13-96:29
+112                <action android:name="android.intent.action.FİLMLEREKRAN" />
+112-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:93:17-77
+112-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:93:25-74
+113
+114                <category android:name="android.intent.DEFAULT" />
+114-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:49:17-67
+114-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:49:27-64
+115            </intent-filter>
+116        </activity>
+117        <activity
+117-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:98:9-106:20
+118            android:name="com.ipekcoskun.sanatrehberim.RegisterActivity"
+118-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:99:13-45
+119            android:label="@string/app_name" >
+119-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:100:13-45
+120            <intent-filter>
+120-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:101:13-105:29
+121                <action android:name="android.intent.action.REGİSTEREKRAN" />
+121-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:102:17-78
+121-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:102:25-75
+122
+123                <category android:name="android.intent.DEFAULT" />
+123-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:49:17-67
+123-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:49:27-64
+124            </intent-filter>
+125        </activity>
+126
+127        <uses-library
+127-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:107:9-101
+128            android:name="org.apache.http.legacy"
+128-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:107:23-60
+129            android:required="false" />
+129-->C:\Users\Ipek\AndroidStudioProjects\SanatRehberim\app\src\main\AndroidManifest.xml:107:61-85
+130
+131        <activity
+131-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\Ipek\.gradle\caches\transforms-2\files-2.1\494f3ed2e40eeef7f97e42188a86cd38\jetified-firebase-auth-19.3.1\AndroidManifest.xml:24:9-31:50
+132            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+132-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\Ipek\.gradle\caches\transforms-2\files-2.1\494f3ed2e40eeef7f97e42188a86cd38\jetified-firebase-auth-19.3.1\AndroidManifest.xml:25:13-85
+133            android:excludeFromRecents="true"
+133-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\Ipek\.gradle\caches\transforms-2\files-2.1\494f3ed2e40eeef7f97e42188a86cd38\jetified-firebase-auth-19.3.1\AndroidManifest.xml:26:13-46
+134            android:exported="true"
+134-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\Ipek\.gradle\caches\transforms-2\files-2.1\494f3ed2e40eeef7f97e42188a86cd38\jetified-firebase-auth-19.3.1\AndroidManifest.xml:27:13-36
+135            android:launchMode="singleTask"
+135-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\Ipek\.gradle\caches\transforms-2\files-2.1\494f3ed2e40eeef7f97e42188a86cd38\jetified-firebase-auth-19.3.1\AndroidManifest.xml:28:13-44
+136            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+136-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\Ipek\.gradle\caches\transforms-2\files-2.1\494f3ed2e40eeef7f97e42188a86cd38\jetified-firebase-auth-19.3.1\AndroidManifest.xml:29:13-102
+137            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+137-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\Ipek\.gradle\caches\transforms-2\files-2.1\494f3ed2e40eeef7f97e42188a86cd38\jetified-firebase-auth-19.3.1\AndroidManifest.xml:30:13-72
+138
+139        <service
+139-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\Ipek\.gradle\caches\transforms-2\files-2.1\494f3ed2e40eeef7f97e42188a86cd38\jetified-firebase-auth-19.3.1\AndroidManifest.xml:33:9-39:19
+140            android:name="com.google.firebase.components.ComponentDiscoveryService"
+140-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\Ipek\.gradle\caches\transforms-2\files-2.1\494f3ed2e40eeef7f97e42188a86cd38\jetified-firebase-auth-19.3.1\AndroidManifest.xml:34:13-84
+141            android:directBootAware="true"
+141-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Ipek\.gradle\caches\transforms-2\files-2.1\3f1cce472841f11fe16cf955f9472ba3\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+142            android:exported="false" >
+142-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\Ipek\.gradle\caches\transforms-2\files-2.1\494f3ed2e40eeef7f97e42188a86cd38\jetified-firebase-auth-19.3.1\AndroidManifest.xml:35:13-37
+143            <meta-data
+143-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\Ipek\.gradle\caches\transforms-2\files-2.1\494f3ed2e40eeef7f97e42188a86cd38\jetified-firebase-auth-19.3.1\AndroidManifest.xml:36:13-38:85
+144                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+144-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\Ipek\.gradle\caches\transforms-2\files-2.1\494f3ed2e40eeef7f97e42188a86cd38\jetified-firebase-auth-19.3.1\AndroidManifest.xml:37:17-109
+145                android:value="com.google.firebase.components.ComponentRegistrar" />
+145-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\Ipek\.gradle\caches\transforms-2\files-2.1\494f3ed2e40eeef7f97e42188a86cd38\jetified-firebase-auth-19.3.1\AndroidManifest.xml:38:17-82
+146            <meta-data
+146-->[com.google.firebase:firebase-firestore:21.4.3] C:\Users\Ipek\.gradle\caches\transforms-2\files-2.1\31c59e123adf982d21ed9bc80a0a4faf\jetified-firebase-firestore-21.4.3\AndroidManifest.xml:20:13-22:85
+147                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+147-->[com.google.firebase:firebase-firestore:21.4.3] C:\Users\Ipek\.gradle\caches\transforms-2\files-2.1\31c59e123adf982d21ed9bc80a0a4faf\jetified-firebase-firestore-21.4.3\AndroidManifest.xml:21:17-111
+148                android:value="com.google.firebase.components.ComponentRegistrar" />
+148-->[com.google.firebase:firebase-firestore:21.4.3] C:\Users\Ipek\.gradle\caches\transforms-2\files-2.1\31c59e123adf982d21ed9bc80a0a4faf\jetified-firebase-firestore-21.4.3\AndroidManifest.xml:22:17-82
+149            <meta-data
+149-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\Ipek\.gradle\caches\transforms-2\files-2.1\02e6c7c291f33752dcd930b1d7f990f1\jetified-firebase-storage-19.1.1\AndroidManifest.xml:33:13-35:85
+150                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+150-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\Ipek\.gradle\caches\transforms-2\files-2.1\02e6c7c291f33752dcd930b1d7f990f1\jetified-firebase-storage-19.1.1\AndroidManifest.xml:34:17-107
+151                android:value="com.google.firebase.components.ComponentRegistrar" />
+151-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\Ipek\.gradle\caches\transforms-2\files-2.1\02e6c7c291f33752dcd930b1d7f990f1\jetified-firebase-storage-19.1.1\AndroidManifest.xml:35:17-82
+152        </service>
+153
+154        <provider
+154-->[com.squareup.picasso:picasso:2.71828] C:\Users\Ipek\.gradle\caches\transforms-2\files-2.1\2bed3f24ccd936dfc306e1c221ccb56e\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+155            android:name="com.squareup.picasso.PicassoProvider"
+155-->[com.squareup.picasso:picasso:2.71828] C:\Users\Ipek\.gradle\caches\transforms-2\files-2.1\2bed3f24ccd936dfc306e1c221ccb56e\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+156            android:authorities="com.ipekcoskun.sanatrehberim.com.squareup.picasso"
+156-->[com.squareup.picasso:picasso:2.71828] C:\Users\Ipek\.gradle\caches\transforms-2\files-2.1\2bed3f24ccd936dfc306e1c221ccb56e\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+157            android:exported="false" />
+157-->[com.squareup.picasso:picasso:2.71828] C:\Users\Ipek\.gradle\caches\transforms-2\files-2.1\2bed3f24ccd936dfc306e1c221ccb56e\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+158
+159        <activity
+159-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Ipek\.gradle\caches\transforms-2\files-2.1\c5ea4bf2c42c4bff2c7194317004e737\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+160            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+160-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Ipek\.gradle\caches\transforms-2\files-2.1\c5ea4bf2c42c4bff2c7194317004e737\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+161            android:exported="false"
+161-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Ipek\.gradle\caches\transforms-2\files-2.1\c5ea4bf2c42c4bff2c7194317004e737\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+162            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+162-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Ipek\.gradle\caches\transforms-2\files-2.1\c5ea4bf2c42c4bff2c7194317004e737\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+163
+164        <provider
+164-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Ipek\.gradle\caches\transforms-2\files-2.1\3f1cce472841f11fe16cf955f9472ba3\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+165            android:name="com.google.firebase.provider.FirebaseInitProvider"
+165-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Ipek\.gradle\caches\transforms-2\files-2.1\3f1cce472841f11fe16cf955f9472ba3\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+166            android:authorities="com.ipekcoskun.sanatrehberim.firebaseinitprovider"
+166-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Ipek\.gradle\caches\transforms-2\files-2.1\3f1cce472841f11fe16cf955f9472ba3\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+167            android:exported="false"
+167-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Ipek\.gradle\caches\transforms-2\files-2.1\3f1cce472841f11fe16cf955f9472ba3\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+168            android:initOrder="100" />
+168-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Ipek\.gradle\caches\transforms-2\files-2.1\3f1cce472841f11fe16cf955f9472ba3\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+169
+170        <meta-data
+170-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Ipek\.gradle\caches\transforms-2\files-2.1\2465f099dd7150b541b6b858bc6f977b\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+171            android:name="com.google.android.gms.version"
+171-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Ipek\.gradle\caches\transforms-2\files-2.1\2465f099dd7150b541b6b858bc6f977b\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+172            android:value="@integer/google_play_services_version" />
+172-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Ipek\.gradle\caches\transforms-2\files-2.1\2465f099dd7150b541b6b858bc6f977b\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+173    </application>
+174
+175</manifest>

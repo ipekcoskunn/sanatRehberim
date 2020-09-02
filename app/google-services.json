@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "179849907047",
+    "firebase_url": "https://sanatrehberim.firebaseio.com",
+    "project_id": "sanatrehberim",
+    "storage_bucket": "sanatrehberim.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:179849907047:android:3e8a36500336166addfdc2",
+        "android_client_info": {
+          "package_name": "com.ipekcoskun.sanatrehberim"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "179849907047-jp7sp82mmohpsl6a25lae3k5pf8da7nh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1P8-0veDsTrvKAFZTsPwhqlwHppbOyNc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "179849907047-jp7sp82mmohpsl6a25lae3k5pf8da7nh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
